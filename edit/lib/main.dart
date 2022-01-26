@@ -1,9 +1,9 @@
 import 'package:animated_theme_switcher/animated_theme_switcher.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:edit/page/profile_page.dart';
-import 'package:edit/themes.dart';
-import 'package:edit/utils/user_preferences.dart';
+import 'package:user_profile_example/page/profile_page.dart';
+import 'package:user_profile_example/themes.dart';
+import 'package:user_profile_example/utils/user_preferences.dart';
 
 Future main() async {
   WidgetsFlutterBinding.ensureInitialized();

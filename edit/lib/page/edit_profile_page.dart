@@ -3,12 +3,12 @@ import 'dart:io';
 import 'package:animated_theme_switcher/animated_theme_switcher.dart';
 import 'package:flutter/material.dart';
 import 'package:path/path.dart';
-import 'package:edit/model/user.dart';
-import 'package:edit/utils/user_preferences.dart';
-import 'package:edit/widget/appbar_widget.dart';
-import 'package:edit/widget/button_widget.dart';
-import 'package:edit/widget/profile_widget.dart';
-import 'package:edit/widget/textfield_widget.dart';
+import 'package:user_profile_example/model/user.dart';
+import 'package:user_profile_example/utils/user_preferences.dart';
+import 'package:user_profile_example/widget/appbar_widget.dart';
+import 'package:user_profile_example/widget/button_widget.dart';
+import 'package:user_profile_example/widget/profile_widget.dart';
+import 'package:user_profile_example/widget/textfield_widget.dart';
 
 class EditProfilePage extends StatefulWidget {
   @override

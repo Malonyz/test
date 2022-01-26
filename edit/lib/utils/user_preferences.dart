@@ -1,4 +1,4 @@
-import 'package:edit/model/user.dart';
+import 'package:user_profile_example/model/user.dart';
 
 class UserPreferences {
   static const myUser = User(

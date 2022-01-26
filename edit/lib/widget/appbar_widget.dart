@@ -1,8 +1,8 @@
 import 'package:animated_theme_switcher/animated_theme_switcher.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:edit/themes.dart';
-import 'package:edit/utils/user_preferences.dart';
+import 'package:user_profile_example/themes.dart';
+import 'package:user_profile_example/utils/user_preferences.dart';
 
 AppBar buildAppBar(BuildContext context) {
   final isDarkMode = Theme.of(context).brightness == Brightness.dark;
